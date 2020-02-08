@@ -1,4 +1,4 @@
-package software.daveturner;
+package software.daveturner.primitives;
 
 import org.junit.jupiter.api.Test;
 import org.junit.platform.commons.util.ReflectionUtils;
