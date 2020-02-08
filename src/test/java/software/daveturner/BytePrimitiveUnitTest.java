@@ -82,6 +82,8 @@ public class BytePrimitiveUnitTest {
         assertFalse(Byte.toString(byte1).equals("1")); // interesting result
         assertEquals(Byte.toString(byte1), "49");
     }
+
+
 }
 
 
