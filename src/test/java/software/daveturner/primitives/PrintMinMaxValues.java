@@ -54,4 +54,12 @@ public class PrintMinMaxValues {
         System.out.println("max: " + Double.MAX_VALUE);
         System.out.println("min: " + Double.MIN_VALUE);
     }
+
+    @Test
+    public void printCharMinMaxValues() {
+        methodName = new Object(){}.getClass().getEnclosingMethod().getName();
+        System.out.println(methodName);
+        System.out.println("max: " + Integer.valueOf(Character.MAX_VALUE));
+        System.out.println("min: " + Integer.valueOf(Character.MIN_VALUE));
+    }
 }

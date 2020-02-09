@@ -4,11 +4,7 @@ import org.junit.jupiter.api.Test;
 
 public class CharPrimitiveUnitTest {
 
-    @Test
-    public void printMInMAxValues() {
-        System.out.println("max: " + Integer.valueOf(Character.MAX_VALUE));
-        System.out.println("min: " + Integer.valueOf(Character.MIN_VALUE));
-    }
+
 
     @Test
     public void assignCharFromShort() {
@@ -17,4 +13,20 @@ public class CharPrimitiveUnitTest {
         System.out.println(c);
     }
 
+    @Test
+    public void assignCharFromInt() {
+        char c = 65535; // will compile
+        //char c = 65536; // will not compile
+        c = 0; // will compile
+        //c = -1; // will not compile
+
+        int x = -1232;
+        c = (char) x;
+    }
+
+
+
+
+
 }
+
